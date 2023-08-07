@@ -42,7 +42,6 @@ type PostPayload = Record<{
  */
 const postStorage = new StableBTreeMap<string, Post>(0, 44, 1024);
 
-
 // get all posts
 $query;
 export function getPosts(): Result<Vec<Post>, string> {
