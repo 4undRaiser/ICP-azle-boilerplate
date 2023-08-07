@@ -2,7 +2,7 @@ import { $query, $update, Record, StableBTreeMap, Vec, match, Result, nat64, ic,
 import { v4 as uuidv4 } from 'uuid';
 
 /**
- * This type represents a message that can be listed on a board.
+ * This type represents a Post that can be written on the blog.
  */
 type Post = Record<{
     owner: Principal; // owner of the blog post
